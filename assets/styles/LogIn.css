@@ -10,8 +10,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../src/background-Dental4.png');
-    background-size:contain;
+    background: url('../src/background-Dental4.png') center center no-repeat;
+    background-size:cover;
 }
 
 .contenedor{
@@ -125,4 +125,10 @@ font-weight: 600;
 
 .register-link p a:hover{
 color: rgb(0, 150, 199);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto; /* Cambiar el tamaño de la imagen a su tamaño original en pantallas más pequeñas */
+    }
 }
