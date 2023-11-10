@@ -11,7 +11,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: url('../src/background-Dental4.png');
-    background-size:cover;
+    background-size:contain;
 }
 
 .contenedor{
