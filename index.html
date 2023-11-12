@@ -14,28 +14,29 @@
             <form action="">
                 <h1>Login</h1>
                 <div class="inputbox">
-                    <input type="text" placeholder="Username" required>
+                    <input type="text" placeholder="Username" id="username" required>
                     <i class='bx bxs-user'></i>
                 </div>
 
                 <div class="inputbox">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Password" id="password" required>
                     <i class='bx bxs-lock-alt' ></i>
                 </div>
 
                 <div class="remember-forgot">
-                    <label><input type="checkbox" name="Remember me"> Remember me</label>
+                    <label><input type="checkbox" name="Remember me" id="remeber-me"> Remember me</label>
                     <a href="#">Forgot Password?</a>
                 </div>
 
-                <button type="submit" class="btnLog">Login</button>
+                <button type="button" class="btnLog" onclick="TryLogin()">Login</button>
                 
                 <div class="register-link">
-                    <p>Don't have an account? <a href="SignIn.html">Register</a></p>
-
+                    <p>Don't have an account? <a href="pages/SignIn.html">Register</a></p>
                 </div>
             </form>
         </div>
+
+        <script type="module" src="assets/script/conexion.js"></script>
     </body>
 
 </html>
